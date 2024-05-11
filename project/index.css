@@ -1,0 +1,616 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+main{
+    width: 100%;
+
+   
+    & a{
+       
+        max-width: fit-content;
+        background-color: #CCE8FD;
+        border-radius: .8rem;
+    }
+}
+
+
+
+main > img{
+    position: absolute;
+    display: block;
+    max-width: 58%;
+    right:0;
+
+}
+
+main .nav-section{
+    max-width: 1450px;
+    margin-inline: auto;
+    padding-left:1rem;
+    /* background-color: red; */
+}
+
+.nav-section .nav {
+    padding-top: 1rem ;
+    max-width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-section .nav h1{
+    text-transform: lowercase;
+    font-size: 1.6rem;
+}
+
+.nav-section .nav button{
+    display: flex;
+    align-items: center;
+    gap:.8rem;
+    border:none;
+    padding: .6rem .8rem;
+    font-family: inherit;
+    margin-left: 0;
+    background-color:rgb(95, 95, 188);
+    /* border:.1rem solid black; */
+    border-radius: .5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    outline: none;
+    border: .1rem solid #DCDCDC;
+
+    & h4{
+        font-size: 1.1rem;
+    }
+
+}
+
+
+
+
+.header-section{
+    padding-inline: 1.4rem;
+    padding-top: 1rem;
+    max-width: 1400px;
+    /* background-color: yellow; */
+    margin-inline:auto;
+}
+
+
+.header-section .header-text{
+    margin-top: 150px;
+}
+
+.header-section .header-text h1{
+    max-width: 700px;
+    font-size: 7rem;
+    margin-bottom: 2rem;
+}
+
+
+.header-section .header-text  .header-text-icon{
+    display: flex;
+    align-items: center;
+
+    & p{
+        font-size: 1.5rem;
+        margin: 1rem 1rem;
+    }
+}
+
+
+.container{
+    max-width: 1400px;
+    padding: .1rem;
+    margin-inline: auto;
+    margin-top:5rem;
+    /* background-color: red; */
+
+}
+
+a{
+    display: inline-block;
+    text-decoration-line:none;
+}
+
+a .button{
+    display: flex;
+    align-items: start;
+    background-color: #CCE8FD;
+    max-width: fit-content;
+    gap:1rem;
+    padding: 1em 2em;
+    border-radius: 1rem;
+
+
+    & span{
+        font-size:.9rem;
+        color: #808080;
+        font-weight: 400;
+    }
+    
+    & h4{
+        font-size: 1.4rem;
+        color: black;
+    }
+}
+
+
+
+/* -------Traget-section ---------*/
+
+.Target-section{
+    width: 100%;
+    /* background-color: red; */
+    margin-inline: auto;
+    padding-inline:2rem;   
+    margin-top:8rem; 
+}
+
+.Target-box{
+    display: flex;
+    align-self: start;
+    justify-content: space-between;
+    gap:2rem;
+
+    
+}
+
+.Target-box .Target-img img{
+    width: 100%;
+}
+
+.Target-box .Target-text  {
+
+    & h1{
+        max-width:600px;
+        font-size: 4rem ;
+        /* background-color: yellow; */
+        margin-bottom: 1rem;
+    }
+
+    & p{
+        max-width: 400px;
+        font-size: 1.1rem;
+        color:#9393C4;
+        margin-bottom: 1.4rem;
+        font-weight: 500;
+        /* background-color: yellow; */
+    }
+}
+
+
+/* ------- Track section---------*/
+
+
+.Track-section{
+    width: 100%;
+    /* background-color: red; */
+    margin-inline: auto;
+    margin-top: 6rem;
+    position: relative;
+    margin-top: 15rem;
+    padding: 2rem;
+
+    
+}
+
+.track-box-section .Track-img{
+    display: block;
+    max-width: 800px;
+    
+    /* background-color: yellow; */
+    margin-left: -20rem;
+    
+    & img{
+        width: 100%;
+    }
+
+}
+
+.track-box-section .Track-box{
+    width: 86%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Track-box .Track-box1{
+    margin-top: -5rem;
+   & h1{
+
+        max-width: 500px;
+        font-size:4.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.Track-box .modify-box{
+    max-width: 330px;
+    display: flex;
+
+}
+
+.modify-box .modify-box2{
+    margin-top: 2rem;
+}
+
+.modify-box .modify {
+    max-width:100% ;
+    & img{
+        margin: .2rem 0;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 2rem;
+    }
+}
+
+.Track-box .Track-box2{
+    margin-top: 5rem;
+    & h3{
+        margin-inline:auto ;
+        max-width: 500px;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        color: #808080;
+    }
+}
+
+.Track-box2 .box2-text {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.box2-text .text{
+    & h5{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    & P {
+        max-width: 300px;
+        font-size:1.3rem;
+        margin-bottom:1rem;
+        color: #9393C4;
+        font-weight: 400;
+    }
+}
+
+/* ------- Calories section ---------*/
+
+.Calories-section{
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.Calories-box{
+    display: flex;
+    align-items: center;
+    gap:8rem;
+
+}
+
+.Calories-box .Calories-text{
+    & h1{
+        max-width: 300px;
+        font-size: 3.3rem;
+        margin-bottom: 2rem;
+    }
+
+    & p {
+        max-width:450px;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #d0cdcd;
+        font-weight: 500;
+    }
+}
+
+.Calories-box .Calories-img{
+
+    & img{
+        width: 100%;
+    }
+}
+
+/* ------- Logo section ---------*/
+ .Logo-Section{
+    width: 100%;
+    margin-top: 3rem;
+    margin-inline: auto;
+    padding: 2rem;
+    margin-bottom: 4rem;
+
+    & img{
+        display: block;
+        width: 100%;
+    }
+ }
+
+ /* ------- join section ---------*/
+
+.Join-section{
+
+    margin-inline:auto;
+    background-color: #D9F4FF;
+    padding:2rem;
+    margin-bottom: 10rem;
+    border-radius: 2rem;
+}
+
+.Join-section .flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:1rem;
+
+}
+
+.flex-container .Join-text{
+    & h1{
+        font-size: 7rem;
+        
+    }
+}
+
+ /* ------- footer-section ---------*/
+ .fotter{
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+ }
+
+/* ------- Responsive section ---------*/
+
+@media ( max-width:1200px){
+    .flex-container .Join-text{
+        & h1{
+            font-size: 5rem;
+        }
+    }
+
+    .flex-container .img-section{
+        max-width: 400px;
+
+        & img{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:900px){
+    .Track-box .Track-box2{
+        & h3{
+            font-size: 2.2rem;
+        }
+    }
+
+    .Track-box .Track-box1{
+
+        & h1{
+            font-size: 3rem;
+        }
+    }
+    .flex-container .Join-text{
+        & h1{
+            font-size: 4rem;
+        }
+    }
+
+    .flex-container .img-section{
+        max-width: 400px;
+
+        & img{
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width:800px){
+    .Target-box .Target-text  {
+
+        & h1{
+            font-size: 3rem ;
+            /* background-color: yellow; */
+        }
+
+    }
+
+    .Track-section{
+        margin-top: 4rem;
+    }
+
+    .track-box-section .Track-box{
+       flex-direction: column;
+       margin-top: 10rem;
+    }
+    .Track-box .Track-box2 h3{
+        margin-bottom: 4rem;
+    }
+
+    .Calories-box{
+      flex-direction: column;
+      gap: 6rem;
+      align-items: flex-start;
+    }    
+    .Calories-section{
+       margin-top: 24rem;
+    }
+    .Join-section{
+        background-color: unset;
+        position: relative;
+    }
+
+    .Join-section .flex-container{
+        display: block;
+   
+    }
+
+    .flex-container .Join-text{
+        max-width: 400px;
+        background-color: #CCE8FD;
+        min-height: 500px;
+        padding: 1rem;
+        border-radius: 1rem;
+      
+
+      
+    }
+
+    .flex-container .img-section{
+        max-width: 800px;
+        position: absolute;
+        top: 50%;
+        left: 2%;
+        /* background-color: red; */
+
+        & img{
+            width: 100%;
+        }
+        
+    }
+    .fotter{
+        margin-top:30rem;
+        margin-bottom: 3rem;
+     }
+  
+}
+
+@media ( max-width:700px){
+    main .nav-section .nav{
+        max-width: 220px;
+        align-items: start;
+        justify-content: space-between;
+        gap: .3rem;
+    
+      
+        & h1{
+            font-size:1.7rem;
+        }
+
+
+        & button{
+            & h4{
+                font-size: .8rem;
+            }
+
+            & img{
+                width: 15px;
+            }
+        }
+        
+    }
+
+    .header-section .header-text h1{
+        font-size:4rem;
+        max-width: 400px;
+     }
+
+     .Target-section .Target-box{
+        gap:2rem;
+        flex-direction: column;
+        
+    }
+
+    .Target-box .Target-img{
+        max-width: 500px;
+    }
+
+    .Target-box .Target-img img{
+        width: 100%;
+    }
+
+    .Calories-section{
+        margin-top: 24rem;
+     }
+}
+
+
+@media ( max-width:620px){
+    .Calories-section{
+        margin-top: 40rem;
+     }
+     .fotter{
+        margin-top:27rem;
+        margin-bottom: 3rem;
+     }
+}
+
+
+
+@media ( max-width:480px){
+   
+    .nav-section .nav{
+        max-width: 150px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-section .nav h1{
+    margin-bottom: .5rem;
+    font-size:2rem;
+    }
+
+    .nav-section .nav button{
+        & h4{
+            font-size: 1rem;
+        }
+
+        & img{
+            width: 10px;
+        }
+    }
+
+    .header-section .header-text .header-text-icon{
+        & p{
+            font-size: 1.3rem;
+        }
+
+        & img{
+            width: 20px;
+            margin-left: -0.4rem;
+        }
+    }
+
+    .Calories-section{
+        margin-top: 45rem;
+     }
+
+     .flex-container .Join-text{
+        & h1{
+            font-size: 3.5rem;
+        }
+     }
+     .fotter{
+        margin-top:20rem;
+        margin-bottom: 3rem;
+     }
+}
+
+
+@media ( max-width:405px){
+    .Calories-section{
+        margin-top: 57rem;
+     }
+}
+
+@media ( max-width:350px){
+    .header-section .header-text h1 {
+        font-size:3rem
+    }
+}
